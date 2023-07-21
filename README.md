@@ -1,6 +1,6 @@
 # Introduction
 
-This is a simple NextJS app which predicts your age, gender and country based on my name. This is my first nextjs app/project. Though beginner in nature it taught me some important NextJS and React concepts.
+This is a simple NextJS app which predicts your age, gender and country based on your name. This is my first nextjs app/project. Though beginner in nature, it taught me some important NextJS and React concepts.
 
 ### Home Page
 
