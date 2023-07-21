@@ -21,13 +21,16 @@ export default function Home() {
   // HTML we are returning
   return (
     <div>
-      <div>
-        <h1>Enter Your Name</h1>
+      <h1 className="text-center text-4xl mt-5">Data Prediction App</h1>
+    <div className="h-[300px] w-[400px] mx-auto my-10 border-2 border-solid border-white flex items-center justify-center flex-col">
+      <div className="h-[30%]">
+        <h1 className="text-2xl">Enter Your Name</h1>
       </div>
-      <form onSubmit={handleSubmit}>
-        <input className="text-black" type="text" placeholder="Type your name" value={inputVal} onChange={(e) => setInputVal(e.target.value)} />
-        <button type="submit">Predict Data</button>
+      <form onSubmit={handleSubmit} className="flex justify-center items-center flex-col">
+        <input className="text-black bg-white rounded-xl p-2" type="text" placeholder="Type your name" value={inputVal} onChange={(e) => setInputVal(e.target.value)}/>
+        <button type="submit" className="mt-10 bg-white rounded-xl text-black h-[45px] w-[150px] font-bold">Predict Data</button>
       </form>
+    </div>
     </div>
   )
 }

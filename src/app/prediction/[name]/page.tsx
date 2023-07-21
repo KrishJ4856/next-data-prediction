@@ -25,17 +25,17 @@ export default async function page({ params }: Params) {
     const [age, gender, country] = await Promise.all([agePromise, genderPromise, countryPromise])
     return (
         <div>
-            <div>
-                <div>
+            <div className="h-[300px] w-[400px] mx-auto my-10 border-2 border-solid border-white flex items-center justify-center flex-col">
+                <div className="text-2xl text-center h-[25%] w-full relative top-[-40px]">
                     Personal Info
                 </div>
-                <div>
+                <div className="text-2xl relative top-[-30px]">
                     Age: {age?.age}
                 </div>
-                <div>
+                <div className="text-2xl relative top-[-10px]">
                     Gender: {gender?.gender}
                 </div>
-                <div>
+                <div className="text-2xl relative top-[7px]">
                     Country: {country?.country[0]?.country_id}
                 </div>
             </div>
