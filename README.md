@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Introduction
+
+This is a simple NextJS app which predicts your age, gender and country based on my name. This is my first nextjs app/project. Though beginner in nature it taught me some important NextJS and React concepts.
 
 ## Getting Started
 
