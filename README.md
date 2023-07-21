@@ -2,6 +2,14 @@
 
 This is a simple NextJS app which predicts your age, gender and country based on my name. This is my first nextjs app/project. Though beginner in nature it taught me some important NextJS and React concepts.
 
+### Home Page
+
+![Home Page](https://github.com/KrishJ4856/next-data-prediction/assets/114345816/605fab05-4255-4670-9af0-3928b66c397c)
+
+### Data Prediction Page
+
+![Data Prediction Page](https://github.com/KrishJ4856/next-data-prediction/assets/114345816/34a526f4-166e-4bbd-aa59-35d1d37ff560)
+
 ## Getting Started
 
 First, run the development server:
